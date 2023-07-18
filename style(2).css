@@ -1,0 +1,113 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #00425a;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 5rem;
+    background-color: #1f8a70;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+   
+    width: 100%;
+    height: 40rem;
+    background-color: #1f8a70;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-form{
+    background-color: #00425a;
+    width: 100%;
+    height: 100%;
+    border: #eff5f5 0.313rem solid;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+
+input{
+   width: 100%;
+   height: 3rem;
+
+    border-radius: 1rem;
+}
+
+label{
+    color: #eff5f5;
+}
+
+textarea{
+    width: 100%;
+    height: 8rem;
+}
+
+footer{
+    width: 100%;
+    height: 5rem;
+    background-color: #181823;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    color: #eff5f5;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+
+@media (min-width: 768px){
+    
+    textarea{
+        width: 100%;
+        height: 12rem;
+    }
+    
+
+    h2{
+        color: #eff5f5;
+        font-size: 2.5rem;
+        font-style: italic;
+        text-decoration: underline;
+    }
+
+
+
+
+
+}
+
+@media (min-width:1024px){
+
+    h2{
+        color: #eff5f5;
+        font-size: 3rem;
+        font-style: italic;
+        text-decoration: underline;
+        
+    }
+
+}
