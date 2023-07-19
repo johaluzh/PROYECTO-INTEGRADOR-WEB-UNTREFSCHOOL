@@ -2,43 +2,64 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Johanna Hernandez">
+    <meta name="description" content=" Formulario Escuela Primaria UntrefSchool">
+    <meta name="keywords" content="HTML, CSS">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Belanosima&family=Inter:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,200;0,300;0,500;1,600&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style(2).css">
     <title>Formulario</title>
 </head>
 <body>
 
     <header>
-        <h2>Untref School</h2> 
+        <h2>UntrefSchool</h2> 
     </header>
     
     <main>
-       <div class="container-form">
-        <form class="form" action="./index(2).html" method="post">
-
-            <label for="nombre">Nombre y Apellido</label>
-            <input type="text" name="nombre" id="nombre">
+      
+        <section>
+           
+            <h3>Deje aqui sus datos:</h3>
+        
+          <div class="container-form">
+         
+            
     
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="email">
+            <form class="form" action="./index(2).html" method="post">
     
-            <label for="telefono">Tel:</label>
-            <input type="tel" name="telefono" id="telefono">
+                <label for="nombre">Nombre y Apellido</label>
+                <input type="text" name="nombre" id="nombre">
+        
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email">
+        
+                <label for="telefono">Tel:</label>
+                <input type="tel" name="telefono" id="telefono">
+        
+                <label for="textarea">Dejenos su consulta:</label>
+                <textarea name="consulta" id="consulta" cols="30" rows="10" placeholder="Dejenos su consulta y nos contactaremos a la brevedad"></textarea>
     
-            <label for="textarea">Dejenos su consulta:</label>
-            <textarea name="consulta" id="consulta" cols="30" rows="10" placeholder="Dejenos su consulta y nos contactaremos a la brevedad"></textarea>
+            </form>
     
-    
+          </div>
        
-        </form>
-       </div>
+        </section>
+          
+        <button>Enviar</button>
+
     </main>
 
+  
+   
+
     <footer>
-        <h2>Untref School</h2>
+        <h2>UntrefSchool</h2>
     </footer>
     
 </body>

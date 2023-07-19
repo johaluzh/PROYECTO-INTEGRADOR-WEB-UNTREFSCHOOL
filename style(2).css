@@ -6,14 +6,14 @@
 body{
     width: 100%;
     height: 100%;
-    background-color: #00425a;
+    background-color: #181823;
     font-family: 'Poppins', sans-serif;
 }
 
 header{
     width: 100%;
-    height: 5rem;
-    background-color: #1f8a70;
+    height: 6rem;
+    background-color: #181823;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,28 +23,12 @@ main{
    
     width: 100%;
     height: 40rem;
-    background-color: #1f8a70;
+    background-color:#1f8a70;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.container-form{
-    background-color: #00425a;
-    width: 100%;
-    height: 100%;
-    border: #eff5f5 0.313rem solid;
-    border-radius: 0.5rem;
-    padding: 2rem;
-    
-}
-
-.form{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    gap: 1.2rem;
-}
 
 
 input{
@@ -65,18 +49,60 @@ textarea{
 
 footer{
     width: 100%;
-    height: 5rem;
+    height: 6rem;
     background-color: #181823;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+
+
 h2{
     color: #eff5f5;
     font-style: italic;
     text-decoration: underline;
+    
 }
+
+
+section h3{
+    text-align: center;
+    color: #eff5f5;
+    font-size: 1.5rem;
+    font-style: oblique;
+    text-decoration: underline ;
+    position: relative;
+    top: -2.5rem;
+}
+.container-form{
+    display: flex;
+    justify-content: space-around;
+}
+
+.form{
+    padding: 1rem;
+    background-color: #00425a;
+    width: 100%;
+    border: #eff5f5 0.313rem solid;
+}
+
+
+button{
+    position: absolute;
+    bottom: -10.625rem;
+
+    width: 6rem;
+    height: 3rem;
+    color: #eff5f5;
+    background-color: #00425a;
+    border-radius: 10%;
+    border: #181823 0.125rem solid;
+}
+
+
+
+
 
 
 @media (min-width: 768px){
@@ -89,11 +115,32 @@ h2{
 
     h2{
         color: #eff5f5;
-        font-size: 2.5rem;
+        font-size: 3rem;
         font-style: italic;
         text-decoration: underline;
     }
 
+    button{
+        position: absolute;
+        bottom: -12.188rem;
+    
+        width: 6rem;
+        height: 3rem;
+        color: #eff5f5;
+        background-color: #00425a;
+        border-radius: 10%;
+        border: #181823 0.125rem solid;
+    }
+
+    section h3{
+        text-align: center;
+        color: #eff5f5;
+        font-size: 2rem;
+        font-style: oblique;
+        text-decoration: underline ;
+        position: relative;
+        top: -2.1rem;
+    }
 
 
 
@@ -111,5 +158,20 @@ h2{
         text-decoration: underline;
         
     }
+
+
+    
+    button{
+        position: absolute;
+        bottom: -108px;
+    
+        width: 6rem;
+        height: 3rem;
+        color: #eff5f5;
+        background-color: #00425a;
+        border-radius: 10%;
+        border: #181823 0.125rem solid;
+    }
+
 
 }
