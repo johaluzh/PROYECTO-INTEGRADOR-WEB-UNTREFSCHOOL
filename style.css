@@ -56,13 +56,7 @@ body{
 
 }
 
-.card{
 
-    border: #181823 10px solid;
-
-    
- 
-}
 
 .card-title{
     color: #eff5f5;
@@ -128,6 +122,11 @@ h4{
     color: #eff5f5;
 }
 
+   
+.lista-contacto li a{
+    list-style: none;
+    color: #fc7300;
+}
 
 
 .lista-contacto{
@@ -142,6 +141,8 @@ h4{
     list-style: none;
     color: none;
     margin-left: -0.625rem;
+    
+
 }
 
 
@@ -200,6 +201,10 @@ h4{
         border: #181823 10px solid;
     }
 
+
+    h5{
+        font-style: italic;
+    }
     
 .container-footer{
     display: flex;
@@ -251,6 +256,11 @@ h4{
     color: none;
     margin-left: -0.625rem;
     margin-right: 1rem;
+}
+
+.lista-contacto li a{
+    list-style: none;
+    color: #fc7300;
 }
 
 
@@ -316,4 +326,10 @@ h4{
         
      
     }
+
+    
+.lista-contacto li a{
+    list-style: none;
+    color: #fc7300;
+}
 }
